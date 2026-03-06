@@ -14,6 +14,7 @@
 
 - Project タイトル: dugsnotes_express3_by_pedrotech
 - 関連 URL : https://youtu.be/g09PoiCob4Y?si=B-MYDY7pEAs694VR
+- 期間 : 2026.03.06 - 2026.03.06
 - 技術スタック : </br>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
   <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS&logoColor=white">
@@ -23,5 +24,5 @@
 
 ### 2. Project 目標
 
-- Expressを活用して 映画検索ページを制作すること
+- Expressを活用して バックエンドサーバーを構築すること
   </br>

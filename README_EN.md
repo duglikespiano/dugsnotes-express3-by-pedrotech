@@ -14,6 +14,7 @@
 
 - Project title : dugsnotes_express3_by_pedrotech
 - Related URL : https://youtu.be/g09PoiCob4Y?si=B-MYDY7pEAs694VR
+- Period : Mar 06 2026 - Mar 06 2026
 - Tech stack : </br>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
   <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS&logoColor=white">
@@ -23,5 +24,5 @@
 
 ### 2. Project goal
 
-- To build an app with Express
+- To build a backend server with Express
   </br>
