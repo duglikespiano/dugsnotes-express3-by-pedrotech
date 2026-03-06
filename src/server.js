@@ -1,5 +1,6 @@
 import express from 'express';
 import movieRouter from './routes/movieRoutes.js';
+import authRouter from './routes/authRoutes.js';
 import dotenv from 'dotenv';
 import { connectDB, disconnectDB } from './config/db.js';
 
@@ -7,9 +8,13 @@ dotenv.config({ path: './src/.env' });
 connectDB();
 
 const app = express();
-const port = process.env.PORT || 5001;
+const port = process.env.PORT || 5000;
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 app.use('/movies', movieRouter);
+app.use('/auth', authRouter);
 
 app.listen(port, () => {
 	console.log(`Server running on port ${port}`);
