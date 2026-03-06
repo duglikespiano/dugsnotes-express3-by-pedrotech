@@ -1,6 +1,7 @@
 import express from 'express';
 import movieRouter from './routes/movieRoutes.js';
 import authRouter from './routes/authRoutes.js';
+import watchlistRouter from './routes/watchlistRoutes.js';
 import dotenv from 'dotenv';
 import { connectDB, disconnectDB } from './config/db.js';
 
@@ -15,6 +16,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('/movies', movieRouter);
 app.use('/auth', authRouter);
+app.use('/watchlist', watchlistRouter);
 
 app.listen(port, () => {
 	console.log(`Server running on port ${port}`);
