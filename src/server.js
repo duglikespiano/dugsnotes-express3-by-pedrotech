@@ -18,7 +18,7 @@ app.use('/movies', movieRouter);
 app.use('/auth', authRouter);
 app.use('/watchlist', watchlistRouter);
 
-app.listen(port, () => {
+const server = app.listen(port, () => {
 	console.log(`Server running on port ${port}`);
 });
 
